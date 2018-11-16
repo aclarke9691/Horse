@@ -31,5 +31,16 @@ public class HorseBarn {
         }
     }
 
-    public String twoString()
+    public String toString() {
+        String list = "";
+        for (int x = 0; x < this.spaces.length; x++) {
+            if (this.spaces[x] == null) {
+                list = list + " null ";
+            } else {
+                list = list + " " + this.spaces[x].getName() + " ";
+            }
+        }
+        return list;
+
+    }
 }

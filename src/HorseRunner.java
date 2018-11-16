@@ -22,6 +22,7 @@ public static void main(String[] args)
     System.out.println("Dusty Trail is now in space: " + barn.findHorseSpace("Dusty Trail"));
 
 
+
 }
 
 
